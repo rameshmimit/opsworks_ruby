@@ -14,7 +14,7 @@ chef_version '~> 12.0' if respond_to?(:chef_version)
 #depends 'logrotate'
 #depends 'ruby-ng'
 #depends 's3_file'
-#depends 'sudo'
+depends 'sudo'
 
 supports 'amazon', '>= 2017.03'
 supports 'ubuntu', '>= 16.04'
